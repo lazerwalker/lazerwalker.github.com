@@ -1,0 +1,213 @@
+/** 
+*	This is a loose, incomplete port of Blueprint.css's grid to SCSS, 
+* so as to allow for a pure CSS grid with no HTML markup.
+*
+* It neither implements Blueprint's grid formatting of form elements, 
+*	nor its other miscellaneous grid helper functions.
+* 
+* There are more full-featured SASS grids out there, but this is
+* dead-simple and gets the job done quickly.
+*/
+body {
+  /* Typography */
+  font-size: 18px;
+  line-height: 1.6em;
+  font-family: adobe-garamond-pro, Palatino Linotype, Palatino, serif;
+  color: #312516;
+  /* Layout */
+  background-color: #F0F0E5;
+  background-image: url("../images/bg.png");
+  background-repeat: repeat;
+  padding-top: 10px; }
+
+/* Sidewide Styles */
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted #312516;
+  color: #312516; }
+  a:hover {
+    border-bottom: 1px solid #312516;
+    color: #312516; }
+  a.img {
+    float: left;
+    width: 232.5px;
+    /* Don't add a margin if it's as wide as the page */
+    margin-right: 10px;
+    border: 0; }
+
+h1, h2, h3 {
+  font-family: ff-enzo-web, Verdana, sans-serif;
+  color: #312516;
+  font-size: 26px;
+  margin-bottom: 15px; }
+
+h1 {
+  font-size: 26px;
+  line-height: 1em;
+  padding-top: 10px;
+  font-weight: bold; }
+
+h2 {
+  font-size: 26px;
+  line-height: 1em;
+  font-weight: bold; }
+
+h3 {
+  font-size: 26px;
+  line-height: 1.5em; }
+
+.last {
+  margin-right: 0 !important; }
+
+#wrapper {
+  width: 960px;
+  margin: auto;
+  position: relative; }
+
+nav {
+  float: left;
+  width: 111.25px;
+  /* Don't add a margin if it's as wide as the page */
+  margin-right: 10px;
+  margin-right: 40.417px;
+  font-family: ff-enzo-web, Palatino Linotype, Book Antiqua, Palatino, serif;
+  line-height: 1.5em;
+  padding-top: 1em; }
+  nav ul {
+    list-style-type: none; }
+  nav img {
+    float: left;
+    width: 111.25px;
+    /* Don't add a margin if it's as wide as the page */
+    margin-right: 10px;
+    margin-bottom: 1em; }
+  nav a {
+    text-decoration: none;
+    border: 0;
+    color: #312516; }
+    nav a:hover {
+      border-bottom: 1px dotted #333; }
+
+#content {
+  float: left;
+  width: 798.333px;
+  /* Don't add a margin if it's as wide as the page */
+  margin-right: 10px;
+  margin-right: 0 !important; }
+
+article {
+  padding-top: 10px;
+  margin-bottom: 1em;
+  clear: both; }
+  article.end {
+    margin-bottom: 3em; }
+
+section {
+  margin-bottom: 2em;
+  clear: both; }
+  section div.images {
+    float: left;
+    width: 798.333px;
+    /* Don't add a margin if it's as wide as the page */
+    margin-right: 10px;
+    margin-right: 0 !important;
+    margin-top: 1em;
+    margin-bottom: 3em; }
+    section div.images.small {
+      margin-left: 80.833px;
+      margin-bottom: 1em; }
+      section div.images.small a {
+        width: 100px;
+        height: 100px;
+        float: none;
+        display: inline;
+        margin-right: 0;
+        padding-bottom: 1.5em; }
+        section div.images.small a img {
+          width: 100px;
+          height: 100px;
+          margin-bottom: 30px; }
+    section div.images a {
+      float: left;
+      width: 232.5px;
+      /* Don't add a margin if it's as wide as the page */
+      margin-right: 10px;
+      margin-right: 40.417px;
+      margin-right: 50px;
+      height: 200px;
+      border: none;
+      display: block;
+      text-align: center;
+      font-family: ff-enzo-web;
+      font-size: 14px;
+      color: #111; }
+      section div.images a:hover {
+        border: none; }
+      section div.images a img {
+        margin-bottom: 0; }
+        section div.images a img:hover {
+          border: none; }
+  section img {
+    float: left;
+    width: 232.5px;
+    /* Don't add a margin if it's as wide as the page */
+    margin-right: 10px;
+    margin-right: 40.417px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    float: left;
+    margin-bottom: 1em;
+    box-shadow: -1px -1px 1px rgba(221, 221, 221, 0.7), 1px 1px 1px rgba(2, 2, 2, 0.4);
+    -moz-box-shadow: -1px -1px 1px rgba(221, 221, 221, 0.7), 1px 1px 1px rgba(2, 2, 2, 0.4);
+    -webkit-box-shadow: -1px -1px 1px rgba(221, 221, 221, 0.7), 1px 1px 1px rgba(2, 2, 2, 0.4); }
+    section img.tall {
+      float: left;
+      width: 192.083px;
+      /* Don't add a margin if it's as wide as the page */
+      margin-right: 10px;
+      margin-bottom: 1.6em; }
+    section img.right {
+      margin-left: 40.417px;
+      margin-right: 0;
+      float: right; }
+  section p, section div {
+    padding-bottom: 1em; }
+
+/* Media query to cover tablets, smartphones, super-old PCs) */
+@media all and (max-width: 959px) {
+  div#wrapper, div#content, div.images, nav {
+    width: auto !important; }
+
+  div.images {
+    margin-left: 35%; }
+    div.images a {
+      padding-bottom: 1.5em;
+      clear: both; }
+
+  div#wrapper {
+    padding-left: 30px;
+    padding-right: 30px; }
+
+  nav {
+    margin-left: 0;
+    float: left; }
+    nav ul, nav img {
+      float: left;
+      line-height: 2em; } }
+/* Extra tweaks for portrait smartphones */
+@media all and (max-width: 400px) {
+  div#wrapper {
+    margin: auto; }
+
+  div#content {
+    width: 300px !important; }
+
+  p {
+    clear: both; }
+
+  img.right {
+    float: left !important; }
+
+  section > img, div.images, div.images.small {
+    margin-left: 40.417px !important; } }
