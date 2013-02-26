@@ -84,9 +84,10 @@ nav {
       nav ul {
         margin-left: 1em; } }
   nav ul {
-    list-style-type: none; }
-  nav img {
-    margin-bottom: 1em; }
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px; }
   nav a {
     text-decoration: none;
     border: 0;
@@ -107,8 +108,7 @@ nav {
       clear: both; } }
 
 article {
-  padding-top: 10px;
-  margin-bottom: 1em; }
+  padding-top: 10px; }
   article.end {
     margin-bottom: 3em; }
 
