@@ -41,6 +41,10 @@ h2
 h3
     line-height: 1.5
 
+strong
+    font-family: ff-enzo-web, Palatino Linotype, Book Antiqua, Palatino, serif
+
+
 #wrapper
     +full-width-column()
     margin: auto
@@ -130,6 +134,12 @@ section
             margin:
                 left: auto
                 right: auto
+        &.standalone
+            display: block
+            float: none !important
+            margin:
+                left: auto
+                right: auto
 
         border-radius: 10px
         -moz-border-radius: 10px
@@ -166,3 +176,26 @@ section
 #contact
     clear: both
     padding-top: 2em
+
+// PORTFOLIO-SPECIFIC STYLING
+.portfolio
+    .info-left, .info-right
+        float: left
+    .info-right
+        +before(3)
+    #info
+        overflow: auto
+        margin-bottom: 1em
+        margin-top: 1em
+    .images
+        +before(0.5)
+        overflow: auto
+        img
+            +column(4.5)
+            border-radius: none
+            -webkit-border-radius: none
+            -moz-border-radius: none
+
+            box-shadow: none
+            -webkit-moz-shadow: none
+            -moz-box-shadow: none
