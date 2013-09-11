@@ -42,7 +42,7 @@ h3
     line-height: 1.5
 
 strong
-    font-family: ff-enzo-web, Palatino Linotype, Book Antiqua, Palatino, serif
+    font-family: ff-enzo-web, Verdana, sans-serif
 
 
 #wrapper
@@ -84,6 +84,8 @@ nav
         color: $text-color
         &:hover
             border-bottom: 1px dotted #333
+    a.img:hover
+        border: none
 
 #content
     +before($full: 3, $iphone-landscape: 0)
@@ -99,6 +101,56 @@ article
         margin-bottom: 3em
 
 section
+    margin-bottom: 2em
+
+    .squares
+        $size: 160px
+
+        clear: both
+        list-style-type: none
+        margin-top: 1em
+        margin-bottom: 3em
+        padding: 0
+
+        li
+            display:inline-block
+            float: left
+            font-family: ff-enzo-web, Lucida Sans, sans-serif
+            font-size: 0.7em
+            height: $size + 50px
+            line-height: 1.75
+            margin-bottom: 50px
+            margin-right: 40px
+            text-align: center
+            width: $size
+
+            img
+                width: $size
+                height: $size
+                margin-bottom: 10px
+            a
+                border: none
+
+
+    img
+        border-radius: 10px
+        -moz-border-radius: 10px
+        -webkit-border-radius: 10px
+
+        box-shadow: -1px -1px 1px rgba(221,221,221,0.7), 1px 1px 1px rgba(2, 2, 2, 0.4)
+        -moz-box-shadow: -1px -1px 1px rgba(221,221,221,0.7), 1px 1px 1px rgba(2, 2, 2, 0.4)
+        -webkit-box-shadow: -1px -1px 1px rgba(221,221,221,0.7), 1px 1px 1px rgba(2, 2, 2, 0.4)
+
+        &.tall
+            margin-bottom: 1.6em
+
+        &.right
+            +before(0.5)
+            float: right
+    p, div
+        padding-bottom: 1em
+
+.detail
     margin-bottom: 2em
 
     div.images
@@ -160,15 +212,6 @@ section
 
     p, div
         padding-bottom: 1em
-
-.others
-    a.project
-        font-family: ff-enzo-web, Verdana, sans-serif
-        font-weight: bold
-    h3
-        margin-bottom: 1em
-
-
 /* On smaller screens (portrait iPad or smaller), the Dr. Horrible images overflow,
     screwing with the positioning of the last section. This unfortunate hack stops that.
     (we can't make all sections clear: both or else the main nav would break) */
