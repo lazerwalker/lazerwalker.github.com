@@ -242,3 +242,26 @@ section {
 #contact {
   clear: both;
   padding-top: 2em; }
+
+hr {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 1px;
+  width: 60%; }
+
+.portfolio h3 {
+  clear: none; }
+.portfolio .portfolio-images {
+  text-align: center; }
+  .portfolio .portfolio-images img {
+    max-width: 49%;
+    margin: auto;
+    vertical-align: center; }
+  .portfolio .portfolio-images.threes img {
+    max-width: 32%; }
+.portfolio .squares img {
+  border: 1px solid rgba(0, 0, 0, 0.1); }
+.portfolio img {
+  box-shadow: none !important; }
+  .portfolio img.header {
+    max-height: 200px; }
