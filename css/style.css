@@ -39,7 +39,7 @@ strong {
 
 #wrapper {
   box-sizing: border-box;
-  width: 950px;
+  width: 1000px;
   display: block;
   margin: auto;
   position: relative; }
@@ -48,10 +48,10 @@ strong {
       width: 1200px; } }
   @media only screen and (max-width: 1150px) {
     #wrapper {
-      width: 900px; } }
+      width: 1000px; } }
   @media only screen and (max-width: 1000px) {
     #wrapper {
-      width: 650px; } }
+      width: 750px; } }
   @media only screen and (max-width: 650px) {
     #wrapper {
       width: 450px; } }
@@ -62,27 +62,31 @@ strong {
 nav {
   box-sizing: border-box;
   float: left;
-  width: 150px;
+  width: 100px;
   font-family: ff-enzo-web, Palatino Linotype, Book Antiqua, Palatino, serif;
   line-height: 1.5;
   padding-top: 1em; }
+  @media only screen and (max-width: 1000px) {
+    nav {
+      margin-left: 10px; } }
+  @media only screen and (max-width: 650px) {
+    nav {
+      margin-left: 0;
+      width: 100%; }
+      nav img, nav ul {
+        float: left; }
+      nav ul {
+        margin-left: 10px !important;
+        margin-top: 0 !important;
+        width: 100px; } }
   @media only screen and (max-width: 450px) {
     nav {
       width: 100%; }
-      nav img {
-        display: none; }
       nav li {
         display: inline-block;
         padding-right: 10px; }
         nav li a {
           border-bottom: 1px dotted #333333; } }
-  @media only screen and (max-width: 650px) {
-    nav {
-      width: 100%; }
-      nav img, nav ul {
-        float: left; }
-      nav ul {
-        margin-left: 1em; } }
   nav ul {
     list-style-type: none;
     padding: 0;
@@ -99,6 +103,9 @@ nav {
 
 #content {
   margin-left: 150px; }
+  @media only screen and (max-width: 1000px) {
+    #content {
+      margin-left: 150px; } }
   @media only screen and (max-width: 650px) {
     #content {
       margin-left: 0px; } }
@@ -132,6 +139,11 @@ section {
       margin-right: 40px;
       text-align: center;
       width: 160px; }
+      @media only screen and (max-width: 450px) {
+        section .squares li {
+          float: none;
+          margin: auto;
+          margin-bottom: 50px; } }
       section .squares li img {
         width: 160px;
         height: 160px;

@@ -51,22 +51,28 @@ strong
     position: relative
 
 nav
-    +column(3)
+    +column(2)
+    +ipad-portrait
+        margin-left: 10px
+
+    +iphone-landscape
+        margin-left: 0
+        width: 100%
+        img, ul
+            float: left
+        ul
+            margin-left: 10px !important
+            margin-top: 0 !important
+            width: 100px
+
     +iphone-portrait
         width: 100%
-        img
-            display: none
         li
             display: inline-block
             padding-right: 10px
             a
                 border-bottom: 1px dotted #333
-    +iphone-landscape
-        width: 100%
-        img, ul
-            float: left
-        ul
-            margin-left: 1em
+
 
     font-family: ff-enzo-web, Palatino Linotype, Book Antiqua, Palatino, serif
     line-height: 1.5
@@ -88,7 +94,7 @@ nav
         border: none
 
 #content
-    +before($full: 3, $iphone-landscape: 0)
+    +before($full: 3, $ipad-portrait: 3, $iphone-landscape: 0)
 
     +iphone-portrait
         clear: both
@@ -123,6 +129,11 @@ section
             margin-right: 40px
             text-align: center
             width: $size
+
+            +iphone-portrait
+                float: none
+                margin: auto
+                margin-bottom: 50px
 
             img
                 width: $size
