@@ -36,6 +36,8 @@ h3 {
   font-size: 20px;
   line-height: 1.5;
   padding-top: 2em; }
+  .detail h3 {
+    clear: none; }
 
 h3:first-of-type {
   padding-top: 0; }
