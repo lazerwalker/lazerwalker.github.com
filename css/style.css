@@ -110,7 +110,8 @@ nav {
     border: none; }
 
 #content {
-  margin-left: 150px; }
+  margin-left: 150px;
+  max-width: 900px; }
   @media only screen and (max-width: 1000px) {
     #content {
       margin-left: 150px; } }
@@ -136,8 +137,7 @@ section {
     list-style-type: none;
     margin-top: 1em;
     margin-bottom: 3em;
-    padding: 0;
-    max-width: 900px; }
+    padding: 0; }
     section .squares li {
       float: left;
       font-family: ff-enzo-web, Lucida Sans, sans-serif;
