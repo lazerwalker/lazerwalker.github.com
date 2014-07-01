@@ -3,7 +3,7 @@
 $text-color: #312516
 
 body
-    font-size: 18px
+    font-size: 20px
     line-height: 1.6em
     font-family: adobe-garamond-pro, Palatino Linotype, Palatino, serif
     color: $text-color
@@ -58,11 +58,17 @@ strong
     +full-width-column()
     margin: auto
     position: relative
+    padding-left: 20px
+    padding-right: 40px
+
+    +iphone-landscape
+        padding-right: 20px
 
 nav
     +column(2)
     +ipad-portrait
         margin-left: 10px
+
 
     +iphone-landscape
         margin-left: 0
@@ -111,7 +117,7 @@ nav
         clear: both
 
     max-width: 900px
-    
+
 article
     padding-top: 10px
 
