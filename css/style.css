@@ -21,7 +21,7 @@ a {
 h1, h2, h3 {
   font-family: ff-enzo-web, Verdana, sans-serif;
   color: #312516;
-  font-size: 26px;
+  font-size: 28px;
   margin-bottom: 15px; }
 
 h1 {
@@ -49,9 +49,10 @@ strong {
   box-sizing: border-box;
   width: 1000px;
   display: block;
+  max-width: 1024px;
   margin: auto;
   position: relative;
-  padding-left: 20px;
+  padding-left: 40px;
   padding-right: 40px; }
   @media only screen and (min-width: 1350px) {
     #wrapper {
@@ -70,6 +71,7 @@ strong {
       width: 300px; } }
   @media only screen and (max-width: 650px) {
     #wrapper {
+      padding-left: 20px;
       padding-right: 20px; } }
 
 nav {
@@ -150,7 +152,7 @@ section {
       height: 210px;
       line-height: 1.75;
       margin-bottom: 50px;
-      margin-right: 40px;
+      margin-right: 30px;
       text-align: center;
       width: 160px; }
       @media only screen and (max-width: 450px) {
@@ -250,25 +252,3 @@ section {
 #contact {
   clear: both;
   padding-top: 2em; }
-
-.portfolio .info-left, .portfolio .info-right {
-  float: left; }
-.portfolio .info-right {
-  margin-left: 150px; }
-.portfolio #info {
-  overflow: auto;
-  margin-bottom: 1em;
-  margin-top: 1em; }
-.portfolio .images {
-  margin-left: 25px;
-  overflow: auto; }
-  .portfolio .images img {
-    box-sizing: border-box;
-    float: left;
-    width: 225px;
-    border-radius: none;
-    -webkit-border-radius: none;
-    -moz-border-radius: none;
-    box-shadow: none;
-    -webkit-moz-shadow: none;
-    -moz-box-shadow: none; }
