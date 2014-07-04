@@ -22,8 +22,8 @@ a
         border-bottom: 1px solid $text-color
         color: $text-color
 
-    &.img
-        border: 0
+img
+    border: 1px solid rgba(0, 0, 0, 0.1) !important
 
 h1, h2, h3
     font-family: ff-enzo-web, Verdana, sans-serif
@@ -159,19 +159,14 @@ section
                 width: $size
                 height: $size
                 margin-bottom: 10px
+                border: 1px solid rgba(0, 0, 0, 0.1)
+                border-radius: 10px
+
             a
                 border: none
 
 
     img
-        border-radius: 10px
-        -moz-border-radius: 10px
-        -webkit-border-radius: 10px
-
-        box-shadow: -1px -1px 1px rgba(221,221,221,0.7), 1px 1px 1px rgba(2, 2, 2, 0.4)
-        -moz-box-shadow: -1px -1px 1px rgba(221,221,221,0.7), 1px 1px 1px rgba(2, 2, 2, 0.4)
-        -webkit-box-shadow: -1px -1px 1px rgba(221,221,221,0.7), 1px 1px 1px rgba(2, 2, 2, 0.4)
-
         &.tall
             margin-bottom: 1.6em
 
@@ -206,8 +201,12 @@ section
                     width: 100px
                     height: 100px
                     margin-bottom: 30px
+                    border-radius: 10px
+
 
     img
+        border: 1px solid rgba(0, 0, 0, 0.1)
+
         +after(0.5)
 
         +iphone-portrait
@@ -223,16 +222,8 @@ section
                 left: auto
                 right: auto
 
-        border-radius: 10px
-        -moz-border-radius: 10px
-        -webkit-border-radius: 10px
-
         float: left
         margin-bottom: 1em
-
-        box-shadow: -1px -1px 1px rgba(221,221,221,0.7), 1px 1px 1px rgba(2, 2, 2, 0.4)
-        -moz-box-shadow: -1px -1px 1px rgba(221,221,221,0.7), 1px 1px 1px rgba(2, 2, 2, 0.4)
-        -webkit-box-shadow: -1px -1px 1px rgba(221,221,221,0.7), 1px 1px 1px rgba(2, 2, 2, 0.4)
 
         &.tall
             margin-bottom: 1.6em
@@ -246,8 +237,6 @@ section
 
 #telegraph
     img
-        box-shadow: none !important
-        border-radius: 0 !important
         float: none
         max-height: 350px
         // margin-left: 30px

@@ -15,8 +15,9 @@ a {
   a:hover {
     border-bottom: 1px solid #312516;
     color: #312516; }
-  a.img {
-    border: 0; }
+
+img {
+  border: 1px solid rgba(0, 0, 0, 0.1) !important; }
 
 h1, h2, h3 {
   font-family: ff-enzo-web, Verdana, sans-serif;
@@ -163,21 +164,16 @@ section {
       section .squares li img {
         width: 160px;
         height: 160px;
-        margin-bottom: 10px; }
+        margin-bottom: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 10px; }
       section .squares li a {
         border: none; }
-  section img {
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    box-shadow: -1px -1px 1px rgba(221, 221, 221, 0.7), 1px 1px 1px rgba(2, 2, 2, 0.4);
-    -moz-box-shadow: -1px -1px 1px rgba(221, 221, 221, 0.7), 1px 1px 1px rgba(2, 2, 2, 0.4);
-    -webkit-box-shadow: -1px -1px 1px rgba(221, 221, 221, 0.7), 1px 1px 1px rgba(2, 2, 2, 0.4); }
-    section img.tall {
-      margin-bottom: 1.6em; }
-    section img.right {
-      margin-left: 25px;
-      float: right; }
+  section img.tall {
+    margin-bottom: 1.6em; }
+  section img.right {
+    margin-left: 25px;
+    float: right; }
   section p, section div {
     padding-bottom: 1em; }
 
@@ -210,17 +206,13 @@ section {
       .detail div.images.small a img {
         width: 100px;
         height: 100px;
-        margin-bottom: 30px; }
+        margin-bottom: 30px;
+        border-radius: 10px; }
   .detail img {
+    border: 1px solid rgba(0, 0, 0, 0.1);
     margin-right: 25px;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
     float: left;
-    margin-bottom: 1em;
-    box-shadow: -1px -1px 1px rgba(221, 221, 221, 0.7), 1px 1px 1px rgba(2, 2, 2, 0.4);
-    -moz-box-shadow: -1px -1px 1px rgba(221, 221, 221, 0.7), 1px 1px 1px rgba(2, 2, 2, 0.4);
-    -webkit-box-shadow: -1px -1px 1px rgba(221, 221, 221, 0.7), 1px 1px 1px rgba(2, 2, 2, 0.4); }
+    margin-bottom: 1em; }
     @media only screen and (max-width: 450px) {
       .detail img {
         display: block;
@@ -241,8 +233,6 @@ section {
     padding-bottom: 1em; }
 
 #telegraph img {
-  box-shadow: none !important;
-  border-radius: 0 !important;
   float: none;
   max-height: 350px; }
 
