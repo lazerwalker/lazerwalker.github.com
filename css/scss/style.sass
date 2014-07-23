@@ -22,8 +22,14 @@ a
         border-bottom: 1px solid $text-color
         color: $text-color
 
+    &.img
+        border-bottom: none !important
+
 img
     border: 1px solid rgba(0, 0, 0, 0.1) !important
+
+    &.header
+        border: none !important
 
 h1, h2, h3
     font-family: ff-enzo-web, Verdana, sans-serif
@@ -107,7 +113,8 @@ nav
         color: $text-color
         &:hover
             border-bottom: 1px dotted #333
-    a.img:hover
+
+    a.img
         border: none
 
 #content

@@ -15,9 +15,13 @@ a {
   a:hover {
     border-bottom: 1px solid #312516;
     color: #312516; }
+  a.img {
+    border-bottom: none !important; }
 
 img {
   border: 1px solid rgba(0, 0, 0, 0.1) !important; }
+  img.header {
+    border: none !important; }
 
 h1, h2, h3 {
   font-family: ff-enzo-web, Verdana, sans-serif;
@@ -114,7 +118,7 @@ nav {
     color: #312516; }
     nav a:hover {
       border-bottom: 1px dotted #333333; }
-  nav a.img:hover {
+  nav a.img {
     border: none; }
 
 #content {
