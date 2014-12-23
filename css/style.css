@@ -50,6 +50,9 @@ h3:first-of-type {
 strong {
   font-family: ff-enzo-web, Verdana, sans-serif; }
 
+#complete-works h3 {
+  clear: none; }
+
 #wrapper {
   box-sizing: border-box;
   width: 1000px;
@@ -239,16 +242,14 @@ section {
 #speaking {
   clear: both; }
 
-#complete-works {
-  clear: both; }
-  #complete-works ol {
-    list-style-position: inside;
-    column-count: 2;
-    -webkit-column-count: 2; }
-    @media only screen and (max-width: 650px) {
-      #complete-works ol {
-        column-count: 1;
-        -webkit-column-count: 1; } }
+#complete-works ol {
+  list-style-position: inside;
+  column-count: 2;
+  -webkit-column-count: 2; }
+  @media only screen and (max-width: 650px) {
+    #complete-works ol {
+      column-count: 1;
+      -webkit-column-count: 1; } }
 
 #telegraph img {
   float: none;
