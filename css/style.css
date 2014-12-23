@@ -236,6 +236,9 @@ section {
   .detail p, .detail div {
     padding-bottom: 1em; }
 
+#speaking {
+  clear: both; }
+
 #complete-works {
   clear: both; }
   #complete-works ol {
