@@ -251,6 +251,12 @@ section {
       column-count: 1;
       -webkit-column-count: 1; } }
 
+#writing {
+  clear: both; }
+  #writing ul {
+    list-style-type: none;
+    margin: 0; }
+
 #telegraph img {
   float: none;
   max-height: 350px; }
