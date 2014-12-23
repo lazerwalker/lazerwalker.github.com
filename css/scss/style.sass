@@ -244,11 +244,14 @@ section
 
 #complete-works
     clear: both
-    column-count: 3
-    column-width: 30%
     ol
         list-style-position: inside
+        column-count: 2
         -webkit-column-count: 2
+
+        +iphone-landscape
+            column-count: 1
+            -webkit-column-count: 1
 
 #telegraph
     img
