@@ -240,8 +240,8 @@ section {
   clear: both;
   column-count: 3;
   column-width: 30%; }
-  #complete-works ul {
-    list-style-type: none;
+  #complete-works ol {
+    list-style-position: inside;
     -webkit-column-count: 2; }
 
 #telegraph img {
