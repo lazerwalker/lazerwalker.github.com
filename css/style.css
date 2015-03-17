@@ -258,8 +258,7 @@ section {
     margin: 0; }
 
 #telegraph img {
-  float: none;
-  max-height: 350px; }
+  float: none; }
 
 /* On smaller screens (portrait iPad or smaller), the Dr. Horrible images overflow,
  * screwing with the positioning of the last section. This unfortunate hack stops that.
