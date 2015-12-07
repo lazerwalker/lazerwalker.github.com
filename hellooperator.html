@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello Operator</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0;"/>
+
+        <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
+        <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <!--[if lt IE 9]>
+        <script>
+          // Shim HTML5 markup elements so IE doesn't blow up
+          // Code borrowed from StackOverflow
+          var e = ("abbr,article,aside,audio,canvas,datalist,details," +
+            "figure,footer,header,hgroup,mark,menu,meter,nav,output," +
+            "progress,section,time,video").split(',');
+          for (var i = 0; i < e.length; i++) {
+            document.createElement(e[i]);
+          }
+        </script>
+
+        <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen, projection">
+        <![endif]-->
+
+        <style>
+          .mono {
+            font-family: Courier !important;
+          }
+
+          .dialogue {
+            font-family: Courier !important;
+            border-left: 5px solid #DDD;
+            margin-left: 20px;
+            padding-left: 10px;
+            margin-bottom: 10px;
+            clear: both;
+          }
+
+          .dialogue p:last-of-type {
+            margin-bottom: 0;
+            padding-bottom: 0;
+          }
+
+          #switchboard img {
+            max-width: 100%;
+          }
+
+          h1 {
+            font-size: 70px;
+            line-height: 70px;
+          }
+        </style>
+
+        <script type="text/javascript" src="http://use.typekit.com/lxl7kzy.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    </head>
+    <body>
+        <div id='wrapper'>
+            <nav>
+                <a href="index.html" class='img'><img src='images/headshot.png' id='headshot' /></a>
+                <ul>
+                    <li><a href="http://blog.lazerwalker.com">Blog</a></li>
+                    <li><a href="works.html">Projects</a></li>
+                    <li><a href="http://www.twitter.com/lazerwalker">Twitter</a></li>
+                    <li><a href="http://www.github.com/lazerwalker">GitHub</a></li>
+                    <li><a href="http://tumblr.lazerwalker.com">Tumblr</a></li>
+                    <li><a href="mailto:michael@lazerwalker.com">Email</a></li>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id='switchboard'>
+                <div class='detail'>
+
+<h1 class='mono'>Hello Operator</h1>
+
+<p class='mono'>A high-stakes game of telephone switchboard operation.</p>
+
+<img src="images/switchboard/operators.jpg"/>
+
+<div class='dialogue'>
+<p>A million calls are made a day in this town. It's our job to make that happen.</p>
+
+<p>Seems straight-forward, you might be thinking. Call comes in. They tell you the recipient. You connect the call, disconnect it when they're done. Nice and easy.</p>
+
+<p>Hah. I doubt you'll survive your first day.</p>
+</div>
+
+<p><em>Hello Operator</em> is a time management sim in the vein of <em>Tapper</em> or <em>Diner Dash</em>. You're tasked with working a manual telephone switchboard in the 1920s. Connecting a single call is easy; managing a dozen increasingly-impatient customers while you only have three or four phone lines is much harder!</p>
+
+<p>The game itself is played using a custom-built replica of a physical telephone switchboard. You'll listen to callers using a vintage telephone handset, connect calls by physically connecting patch cables between ports, and receive feedback through a series of status LEDs.</p>
+
+<img src="images/switchboard/prototype.jpg"/>
+<em>Current prototype controller</em>
+
+<p>I've been using the above prototype to fine-tune the gameplay and test out the electronics. The actual hardware is being designed and built as the final project for a course on hardware fabrication as part of my research at the MIT Media Lab. It's due to be completed in mid to late December; this page will be updated as it gets closer to completion.</p>
+
+<a href="images/switchboard/model.jpg"><img src="images/switchboard/model.jpg" class="right" style="max-width: 300px"></a>
+
+<p>The final design is being based on early- to mid-century Bell Systems switchboards like the one to the right. It will be a full standalone console, completely with 16 inputs, weighted-action cables, a vintage telephone handset to listen to callers, and possibly a number of toggle switches and vintage dial for expert-level gameplay.</p>
+
+<p>It will be modular and easily disassembled, so getting it to SF for GDC won't be a problem.</p>
+
+
+    </body>
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-9288181-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
+    <script type="text/javascript" src="js/slidewindow/slidewindow.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</html>
