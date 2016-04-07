@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/lazerwalker
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://lazerwalker.com
+  * I am lazerwalker (https://keybase.io/lazerwalker) on keybase.
+  * I have a public key ASCrcj6cxbbKTf9Y9y5McqJqu2uPP-YYCQMZFfj-y52KNgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120ab723e9cc5b6ca4dff58f72e4c72a26abb6b8f3fe61809031915f8fecb9d8a360a",
+            "host": "keybase.io",
+            "kid": "0120ab723e9cc5b6ca4dff58f72e4c72a26abb6b8f3fe61809031915f8fecb9d8a360a",
+            "uid": "dcde0f20b75ac9cd10b76c7d3ee77d00",
+            "username": "lazerwalker"
+        },
+        "service": {
+            "hostname": "lazerwalker.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.9"
+    },
+    "ctime": 1460037198,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1460037173,
+        "hash": "8d0879426af656027431a7777cd2e3a7cdbf0a6733b0c1ec5f30640889f58bfe77689222071ca51078f9705bd810d45bc57437120176718a8a14ad2e445ccc00",
+        "seqno": 434132
+    },
+    "prev": "05def56892b7119f4d2bf7ecf3f1ab7510adb6d2bd2b9ea521311e811b30c49d",
+    "seqno": 24,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgq3I+nMW2yk3/WPcuTHKiartrjz/mGAkDGRX4/sudijYKp3BheWxvYWTFAvl7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYWI3MjNlOWNjNWI2Y2E0ZGZmNThmNzJlNGM3MmEyNmFiYjZiOGYzZmU2MTgwOTAzMTkxNWY4ZmVjYjlkOGEzNjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYWI3MjNlOWNjNWI2Y2E0ZGZmNThmNzJlNGM3MmEyNmFiYjZiOGYzZmU2MTgwOTAzMTkxNWY4ZmVjYjlkOGEzNjBhIiwidWlkIjoiZGNkZTBmMjBiNzVhYzljZDEwYjc2YzdkM2VlNzdkMDAiLCJ1c2VybmFtZSI6ImxhemVyd2Fsa2VyIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJsYXplcndhbGtlci5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjkifSwiY3RpbWUiOjE0NjAwMzcxOTgsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ2MDAzNzE3MywiaGFzaCI6IjhkMDg3OTQyNmFmNjU2MDI3NDMxYTc3NzdjZDJlM2E3Y2RiZjBhNjczM2IwYzFlYzVmMzA2NDA4ODlmNThiZmU3NzY4OTIyMjA3MWNhNTEwNzhmOTcwNWJkODEwZDQ1YmM1NzQzNzEyMDE3NjcxOGE4YTE0YWQyZTQ0NWNjYzAwIiwic2Vxbm8iOjQzNDEzMn0sInByZXYiOiIwNWRlZjU2ODkyYjcxMTlmNGQyYmY3ZWNmM2YxYWI3NTEwYWRiNmQyYmQyYjllYTUyMTMxMWU4MTFiMzBjNDlkIiwic2Vxbm8iOjI0LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQPflO4ng4HIdkbTuNARze7FgkLZnXBmRNvb9s3H2kxAY1icV10ZB/Yg+WXXmrUrUAGfkRTXsW6fJ41v0REahhQ6oc2lnX3R5cGUgo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lazerwalker
+
+==================================================================
