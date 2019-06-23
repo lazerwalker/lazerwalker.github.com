@@ -127,7 +127,8 @@ nav {
     nav a:hover {
       border-bottom: 1px dotted #333333; }
   nav a.img {
-    border: none; }
+    border: none; 
+  width: 100px;}
 
 #content {
   margin-left: 150px;
