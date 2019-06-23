@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Michael Lazer-Walker</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0;"/>
+<head>
+  <title>Michael Lazer-Walker</title>
 
-    <link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection">
-    <link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print">
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0;" />
 
-    <!--[if lt IE 9]>
+  <link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+  <!--[if lt IE 9]>
     <script>
       // Shim HTML5 markup elements so IE doesn't blow up
       // Code borrowed from StackOverflow
@@ -24,49 +25,69 @@
     <link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection">
     <![endif]-->
 
-    <script type="text/javascript" src="http://use.typekit.com/lxl7kzy.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  </head>
-  <body>
-    <div id='wrapper'>
-      <nav>
-        <img src='/images/headshot.png' id='headshot' />
-        <ul>
-<li><a href="http://www.github.com/lazerwalker">GitHub</a></li>
-<li><a href="http://www.twitter.com/lazerwalker">Twitter</a></li>
-<li><a href="mailto:howdy@lazerwalker.com">Email</a></li>
-        </ul>
-      </nav>
-      <div id="content" class='portfolio'>
-        <article id='digital'>
-          <h2>SF Playhouse</h2>
+  <script type="text/javascript" src="http://use.typekit.com/lxl7kzy.js"></script>
+  <script type="text/javascript">try { Typekit.load(); } catch (e) { }</script>
+</head>
 
-          <section id='info'>
-            <div class='info-left'>
-              <strong>Role:</strong> Design and Development<br/>
-              <strong>Technologies:</strong> HTML/CSS/JS, PHP<br/>
-              <strong>Design Practices:</strong> Interviews, Wireframing, Iconography
-            </div>
-          </section>
+<body>
+  <div id='wrapper'>
+    <nav>
+      <img src='/images/headshot.png' id='headshot' style='width:100%' />
+      <ul>
+        <li><a href="http://www.github.com/lazerwalker">GitHub</a></li>
+        <li><a href="http://www.twitter.com/lazerwalker">Twitter</a></li>
+        <li><a href="mailto:howdy@lazerwalker.com">Email</a></li>
+      </ul>
+    </nav>
+    <div id="content" class='portfolio'>
+      <article id='digital'>
+        <h2>SF Playhouse</h2>
 
-  <section>
-    <p>The SF Playhouse is a small theatre company in San Francisco.</p>
+        <section id='info'>
+          <div class='info-left'>
+            <strong>Role:</strong> Design and Development<br />
+            <strong>Technologies:</strong> HTML/CSS/JS, PHP<br />
+            <strong>Design Practices:</strong> Interviews, Wireframing, Iconography
+          </div>
+        </section>
 
-<p>To manage ticket sales and customer information, they were using a piece of custom software designed and built by a former volunteer. Due to a combination of technical limitations and a design ill-suited to the employees' actual workflow, the average transaction time using the software was very high. Given that most transactions took place in real-time while a customer waited on the phone, this was unacceptable.</p>
+        <section>
+          <p>The SF Playhouse is a small theatre company in San Francisco.</p>
 
-<p>The theater was in an awkward place: they had outgrown their current tools, but couldn't yet afford commercial box office management software. While I wasn't allowed to modify the current client or migrate the existing data into a more modern database, I was able to create a new client that directly accessed the existing database backend.</p>
+          <p>To manage ticket sales and customer information, they were using a piece of custom software designed and
+            built by a former volunteer. Due to a combination of technical limitations and a design ill-suited to the
+            employees' actual workflow, the average transaction time using the software was very high. Given that most
+            transactions took place in real-time while a customer waited on the phone, this was unacceptable.</p>
+
+          <p>The theater was in an awkward place: they had outgrown their current tools, but couldn't yet afford
+            commercial box office management software. While I wasn't allowed to modify the current client or migrate
+            the existing data into a more modern database, I was able to create a new client that directly accessed the
+            existing database backend.</p>
 
 
-<h1>Process</h1>
-<p>I had the benefit of being embedded within the team that would actually be using the software. I began by interviewing the staff and shadowing them as they went about their daily work to figure out what their needs were.</p>
+          <h1>Process</h1>
+          <p>I had the benefit of being embedded within the team that would actually be using the software. I began by
+            interviewing the staff and shadowing them as they went about their daily work to figure out what their needs
+            were.</p>
 
-<p>I identified two main tasks that represented the bulk of the system’s use: taking orders over the phone and printing out customer lists for each evening’s performance. These two tasks became the focus of the new interface. Working so closely with the end users meant that after shipping an initial version I was able to continue to closely observe how they used it and make more finessed adjustments.</p>
+          <p>I identified two main tasks that represented the bulk of the system’s use: taking orders over the phone and
+            printing out customer lists for each evening’s performance. These two tasks became the focus of the new
+            interface. Working so closely with the end users meant that after shipping an initial version I was able to
+            continue to closely observe how they used it and make more finessed adjustments.</p>
 
-<p>I also worked with the artistic director to create a mobile version of the site optimized for his needs. As a small theater, a large part of their marketing and development strategy was his personal relationship with the theatre's regular patrons. In the time before each performance started, he would walk around the theatre saying hello to subscribers and board members.</p>
+          <p>I also worked with the artistic director to create a mobile version of the site optimized for his needs. As
+            a small theater, a large part of their marketing and development strategy was his personal relationship with
+            the theatre's regular patrons. In the time before each performance started, he would walk around the theatre
+            saying hello to subscribers and board members.</p>
 
-<p>During the course of one of these pre-show sessions, he would frequently run back into the box office to ask us to look up ticket information for a patron located in a certain seat. Building him a mobile-optimized version of the web app seemed like the perfect solution, allowing him to look up the information he needed easily while in the house, while minimizing the development time that a native app would have demanded.</p>
+          <p>During the course of one of these pre-show sessions, he would frequently run back into the box office to
+            ask us to look up ticket information for a patron located in a certain seat. Building him a mobile-optimized
+            version of the web app seemed like the perfect solution, allowing him to look up the information he needed
+            easily while in the house, while minimizing the development time that a native app would have demanded.</p>
 
-<h1>Results</h1>
-<p>After deploying my software, the average transaction time was halved, bringing it well within an acceptable range. Other important daily tasks the box office staff performed were also made much quicker.</p>
+          <h1>Results</h1>
+          <p>After deploying my software, the average transaction time was halved, bringing it well within an acceptable
+            range. Other important daily tasks the box office staff performed were also made much quicker.</p>
 
-<p>Building the whole thing as a light-weight web app minimized my development time and allowed me to move on to other projects for the company, which was important given the necessary impermanence of my solution.</p>
+          <p>Building the whole thing as a light-weight web app minimized my development time and allowed me to move on
+            to other projects for the company, which was important given the necessary impermanence of my solution.</p>
